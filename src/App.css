@@ -2,37 +2,44 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Oswald";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 48px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 0.5px;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  margin: 10px;
+  object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  margin: 20px 25%;
+}
+
+.Gallery {
+  margin: 0 5%;
+}
+
+button {
+  margin: 20px;
+  border-width: 1px;
+  border-style: solid;
+  color: #000;
+  padding: 20px;
+  background: none;
+}
+
+button:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
 }
